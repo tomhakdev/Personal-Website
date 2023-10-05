@@ -1,39 +1,18 @@
 #About {
     position: relative;
-    height: 700px;
+    height: 800px;
     width: 100%;
-    background-color: black;
-    opacity: 0.6;
-    border: 2px solid black;
   }
   
-  /*.about-border{
-    height: 700px;
-    width: 100%;
-    background-color: black;
-    border: 2px solid black;
-    position: absolute;
-  }*/
-  
-#About h2 {
-    position: absolute;
-    top: 0;
-    left: -75px;
-    padding: 50px;
-    font-size: 50px;
-    color: white;
-  }
-
   .about-content {
     display: flex;
     align-items: flex-start;
     margin-top: 200px;
-    
   }
   
   .picture-container {
     flex-shrink: 0;
-    margin-right: 50px;
+    top: 200px;
   }
   
   .picture-container img {
@@ -44,8 +23,6 @@
   }
   
   .about-text {
-    flex-grow: 1;
-    margin-top: 20px;
     text-align: justify;
     word-break: break-word;
   }
@@ -65,26 +42,34 @@
   }
   
   .skill-line {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 80px;
+    left: 400px;
+    text-align: center;
+    position: relative;
+
+    max-width: 800px;
+
+    padding: 15px;
+    
+    border: 10px;
+    border-color: gold;
+    border-radius: 20%;
+
+    background-color: rgba(0, 0, 0, 0.5) ;
+
+
   }
   
-  .icon-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
+  .skill-icon {
+    margin: 15px;
   }
   
-  .icon-link img {
+  .skill-icon img {
     width: 70px;
     height: 70px;
     transition: transform 0.3s;
   }
   
-  .icon-link:hover img {
+  .skill-icon:hover img {
     transform: scale(1.2);
   }
   

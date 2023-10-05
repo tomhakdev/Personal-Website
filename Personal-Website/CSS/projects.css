@@ -8,15 +8,6 @@
     margin-bottom: 50px;
   }
   
-  #Projects .section-title {
-    position: absolute;
-    top: 0;
-    left: -115px;
-    padding: 50px;
-    font-size: 50px;
-    color: white;
-  }
-  
   .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
