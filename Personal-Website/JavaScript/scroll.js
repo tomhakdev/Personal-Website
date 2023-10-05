@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   document.addEventListener('DOMContentLoaded', () => {
-    const scrollLinks = document.querySelectorAll('.main-scroll-link');
+    const scrollLinks = document.querySelectorAll('.home-scroll-link');
   
     scrollLinks.forEach((link) => {
       link.addEventListener('click', (event) => {

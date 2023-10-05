@@ -1,7 +1,19 @@
 #About {
     position: relative;
-    margin-bottom: 200px;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    border: 2px solid black;
   }
+  
+  /*.about-border{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid black;
+    position: absolute;
+  }*/
   
 #About h2 {
     position: absolute;

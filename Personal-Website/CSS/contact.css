@@ -1,5 +1,8 @@
 #Contact {
     position: relative;
+    margin-bottom: 200px;
+    width: 100%;
+  
     min-height: 95vh;
     display: flex;
     flex-direction: column;
