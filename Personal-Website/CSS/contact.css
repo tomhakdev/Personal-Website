@@ -1,14 +1,7 @@
 #Contact {
     position: relative;
-    margin-bottom: 200px;
     width: 100%;
-  
-    min-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
+    height: 750px;
   }
   
   .contact-content {
@@ -16,11 +9,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    height: 650px;
   }
   
   .email {
     font-size: 24px;
-    margin-bottom: 50px;
+    padding: 50px;
     color: white;
   }
   
@@ -34,12 +29,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 200px;
     height: 200px;
+
     border-radius: 50%;
+
     background-color: #333;
+
     margin: 0 40px;
+
     text-decoration: none;
+
     transition: opacity 0.3s ease;
   }
   
