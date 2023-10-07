@@ -11,7 +11,6 @@
   .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 200px;
     row-gap: 110px;
     margin-top: 100px;
   }
@@ -74,9 +73,14 @@
     max-width: 450px;
     margin: 10px 0;
     margin-left: 10px;
+    padding: 10px;
     font-size: 18px;
     line-height: 1.5;
     color: white;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: black;
+    border-radius: 20%;
   }
   
 
