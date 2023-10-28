@@ -13,24 +13,30 @@
   .picture-container {
     flex-shrink: 0;
     top: 200px;
+
   }
   
   .picture-container img {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 350px;
+    border: solid 5px rgba(255, 221, 67);
     border-radius: 50%;
+
   }
   
   .about-text {
     text-align: justify;
     word-break: break-word;
+
   }
   
   .aboutDescription {
     font-size: 28px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+
+
   }
 
   .aboutDescription .last-line{
@@ -45,9 +51,9 @@
   .skill-line {
     left: 400px;
     text-align: center;
-    position: relative;
 
-    max-width: 800px;
+
+    max-width: 100%;
 
     padding: 15px;
     
