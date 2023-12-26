@@ -10,11 +10,19 @@
         <link rel="stylesheet" href="CSS/about.css"/>
         <link rel="stylesheet" href="CSS/projects.css"/>
         <link rel="stylesheet" href="CSS/contact.css"/>
+        <link rel="stylesheet" href="Background Animations/particles.js-master/demo/css/backgroundStyle.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-
     </head>
-    
+
+    <div class="count-particles">
+        <span class="js-count-particles"></span> 
+        </div>
+
+
     <body id = "top">
+
+        <div id="particles-js"></div>
+
         <nav class = "navigate">
             <ul class = "nav-links">
                 <li><a class = "scroll-link" id = "home-link" href="#Home"><i class = "fas fa-home"></i></a></li>
@@ -23,8 +31,11 @@
                 <li><a class = "scroll-link" id = "contact-link" href="#Contact"><i class = "fas fa-phone"></i></a></li>
             </ul>
         </nav>
-        
+
+
+
         <section id="Home">
+
         <p id="Typed-Text">
             <span id = "Typing-Cursor"></span>
             <span id = "cursor"></span>
@@ -54,6 +65,7 @@
         </section>
 
         <section id = "About">
+            <div class="particles-container" id="particles-js-about"></div>
             <h2 class = "section-title">About</h2>
             <div class = "about-content">
                 <div class = "picture-container">
@@ -62,7 +74,7 @@
                 <div class = "about-text"> 
                     <ul class = "aboutDescription">
                         <li>2nd year computer engineering student at Queen's University</li>
-                        <li>Full-stack developer interested in data science and machine learning</li>
+                        <li>Interests and stuff</li>
                         <li>Currently working at locations</li>
                         <li class = "last-line">My tools:</li>
                     </ul>
@@ -72,18 +84,19 @@
                 <a class = "skill-icon" title = "HTML"><img src = "Images/HTML.png" alt = "HTML"></a>
                 <a class = "skill-icon" title = "CSS"><img src = "Images/CSS.png" alt = "CSS"></a>
                 <a class = "skill-icon" title = "JavaScript"><img src = "Images/JavaScript.png" alt = "JavaScript"></a>
-                <a class = "skill-icon" title = "React"><img src = "Images/React.png" alt = "React"></a>
+               <!-- <a class = "skill-icon" title = "React"><img src = "Images/React.png" alt = "React"></a>-->
                 <a class = "skill-icon" title = "Python"><img src = "Images/Python.png" alt = "Python"></a>
                 <!--<a class = "skill-icon" title = "Pandas"><img src = "Images/Pandas.png" alt = "Pandas"></a>-->
-                <a class = "skill-icon" title = "Git"><img src = "Images/Git.png" alt = "Git"></a>
+               <!-- <a class = "skill-icon" title = "Git"><img src = "Images/Git.png" alt = "Git"></a>-->
                 <a class = "skill-icon" title = "C"><img src = "Images/C.png" alt = "C"></a>
                 <a class = "skill-icon" title = "SQL"><img src = "Images/SQL.png" alt = "SQL"></a>
-                <a class = "skill-icon" title = "Flutter"><img src = "Images/Flutter.png" alt = "Flutter"></a>
-                <a class = "skill-icon" title = "Dart"><img src = "Images/Dart.png" alt = "Dart"></a>
+               <!-- <a class = "skill-icon" title = "Flutter"><img src = "Images/Flutter.png" alt = "Flutter"></a>-->
+               <!-- <a class = "skill-icon" title = "Dart"><img src = "Images/Dart.png" alt = "Dart"></a>-->
             </div>
         </section>
 
         <section id = "Projects">
+            <div class="particles-container" id="particles-js-projects"></div>
             <h2 class = "section-title">Projects</h2>
             <div class = "project-grid">
 
@@ -99,8 +112,8 @@
                         </a>
                     </div>
                     <div class = "project-description">
-                        <p>Epic Computer Vision App released on App store and shii</p>
-                        <p>Skills: Python probably</p>
+                        <p>Cool App Descirption</p>
+                        <p>Skills: Flutter, Dart, Firebase</p>
                     </div>
                 </div>
 
@@ -121,7 +134,7 @@
                 </div>
 
                 <div class = "project-item">
-                    <h3 class = "project-title">QHacks: Epic Hackathon Project</h3>
+                    <h3 class = "project-title">Hackahton project maybe?</h3>
                     <div class = "thumbnail">
                         <a href = "GITHUB LINK" target = "_blank">
                             <img src = "Images/kermit.jpg" alt = "Kermit the Frog">
@@ -131,13 +144,13 @@
                         </a>
                     </div>
                     <div class = "project-description">
-                        <p>Cool-ass award winning project for a hackathon I think</p>
-                        <p>Skills: Malborge</p>
+                        <p>Description of project and stuff</p>
+                        <p>Skills: Malborge idk</p>
                     </div>
                 </div>
 
                 <div class = "project-item">
-                    <h3 class = "project-title">QWeb/QDAA Project?</h3>
+                    <h3 class = "project-title">QDAA Project</h3>
                     <div class = "thumbnail">
                         <a href = "GITHUB LINK" target = "_blank">
                             <img src = "Images/kermit.jpg" alt = "Kermit the Frog">
@@ -164,7 +177,7 @@
                     </div>
                     <div class = "project-description">
                         <p>APP created for ELEC 290 class to deter pests</p>
-                        <p>Skills: Arduino</p>
+                        <p>Skills: HTML, CSS, JavaScript, C, Arduino</p>
                     </div>
                 </div>
 
@@ -185,6 +198,7 @@
 
 
         <section id = "Contact">
+            <div class="particles-container" id="particles-js-contact"></div>
             <h2 class = "section-title">Contact</h2>
             <div class = "contact-content">
                 <div class = "email">
@@ -201,11 +215,14 @@
             </div>
         </section>
 
-
         <script src = "JavaScript/scroll.js"></script>
         <script src = "JavaScript/type.js"></script>
         <script src = "JavaScript/iconsize.js"></script>
+        <script src = "Background Animations/particles.js-master/particles.js"></script>
+        <script src = "Background Animations/particles.js-master/demo/js/app.js"></script>
         <!--<script src = "JavaScript/bordercolour.js"></script>!-->
          
+
+
     </body>
     </html>
