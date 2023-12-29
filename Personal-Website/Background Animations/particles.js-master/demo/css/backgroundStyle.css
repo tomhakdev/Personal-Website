@@ -66,7 +66,7 @@ li{list-style:none}*/
 /* ---- particles.js container ---- */
 
 #particles-js{
-  min-height: 592vh;
+  min-height: 567vh;
 
   height: 100%;
   width: 100%;
@@ -77,7 +77,7 @@ li{list-style:none}*/
   background-position: 100% 100%;
   background-repeat: no-repeat;
 
-  z-index: -100;
+  z-index: 1;
   top:0;
   left:0;
 }

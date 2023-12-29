@@ -10,11 +10,11 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    
 }
 
 #particles-js {
-    min-height: 592vh;
+    min-height: 400vh;
 
     height: 100%;
     width: 100%;
@@ -25,7 +25,7 @@ body {
     background-position: 100% 100%;
     background-repeat: no-repeat;
   
-    z-index: -100;
+    z-index: 1;
     top:0;
     left:0;
   }
@@ -34,6 +34,7 @@ body {
     position: relative;
     height: 700px;
     width: 100%;
+    
 }
 
 /*Title*/
@@ -49,9 +50,10 @@ body {
     /*Center Horizontally*/
     margin: 0;
     position: absolute;
-    width: 100%;
+    left: 425px;
 
     top: 200px;
+    z-index: 2;
     
 }
 
@@ -84,6 +86,7 @@ body {
     color: white;
     margin: 0 50px;
     position: relative;
+    z-index: 2;
 }
 
 .home-scroll-link:hover::before {
@@ -119,6 +122,7 @@ body {
     /*Adjust vertical position*/
     top: 330px;
 
+
     
 }
 
@@ -140,6 +144,7 @@ body {
     font-size: 18px;
 
     text-decoration: none;
+    z-index: 2;
 
 }
 
@@ -166,7 +171,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-
+    z-index: 2;
 }
 
 #Typed-Text::after{
@@ -238,6 +243,7 @@ body {
     color: white;
     margin: 0 50px;
     transition: transform 0.3s;
+    z-index: 2;
     
 }
 
