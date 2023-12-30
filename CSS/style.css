@@ -50,10 +50,13 @@ body {
     /*Center Horizontally*/
     margin: 0;
     position: absolute;
-    left: 425px;
+    left: 50%; 
+    transform: translateX(-50%);
 
     top: 200px;
     z-index: 2;
+
+    white-space: nowrap;
     
 }
 
@@ -169,7 +172,7 @@ body {
     position: absolute;
     top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 
     z-index: 2;
 }
@@ -266,15 +269,24 @@ body {
 
 @media only screen and (max-width: 680px) {
     .title{
-        margin-top: 20px;
-        margin-right: 40px;
-        font-size: 40px;
-    }
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        letter-spacing: -10px;
     
-    .title span{
-        display: inline-block;
-        margin-right: -20px;
-        transition: transform 0.5s ease-in-out;
+        cursor: pointer;
+    
+        /*Center Horizontally*/
+        margin: 0;
+        position: absolute;
+        left: 50%; 
+        transform: translateX(-50%);
+    
+        top: 200px;
+        z-index: 2;
+
+        white-space: nowrap;
+        
     }
 
     .main-subtitles{
@@ -297,15 +309,42 @@ body {
     }
 
     #Typed-Text{
-        display: inline-block;
         font-family: "Roboto Mono", monospace;
-        font-size: 18px;
+        font-size: 10px;
         color: white;
-        margin-top: 165px;
-        margin-left: 40px;
-        position: relative;
+
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
     
+    }
+
+    #Typed-Text::after{
+        content: "";
+        background-color: white;
     
+        /*Dimensions of typing cursor*/
+        width: 1px;
+        height: 10px;
+    
+        /*Position of typing cursor*/
+        position: absolute;
+        right: -8px;
+        top: 2px;
+        animation: blink 1s infinite;
+    
+    }
+    
+    @keyframes blink{
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
     }
 
 }
