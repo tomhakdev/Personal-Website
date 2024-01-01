@@ -4,10 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function handleScroll() {
         var scrollPosition = window.scrollY;
-
-        // Disable scrolling down if the user is at or below the bottom of the contact section
         if (scrollPosition >= contactSectionBottom - window.innerHeight) {
-            // Manually adjust the scroll position to the bottom of the contact section
             window.scrollTo(0, contactSectionBottom - window.innerHeight);
         }
     }
