@@ -180,11 +180,9 @@ body {
     content: "";
     background-color: white;
 
-    /*Dimensions of typing cursor*/
     width: 1px;
     height: 20px;
 
-    /*Position of typing cursor*/
     position: absolute;
     right: -8px;
     top: 3px;
