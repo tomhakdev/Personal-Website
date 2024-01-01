@@ -32,15 +32,15 @@
   .about-text {
     text-align: justify;
     word-break: break-word;
-
+    background-color: rgba(0,0,0,0.5);
+    padding-right: 10px;
+    border-radius: 30px;
   }
   
   .aboutDescription {
     font-size: 28px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
-
   }
   
   .aboutDescription li {
