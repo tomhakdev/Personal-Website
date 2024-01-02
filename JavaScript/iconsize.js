@@ -1,4 +1,4 @@
-window.addEventListener("scroll", function () {
+/*window.addEventListener("scroll", function () {
   const icons = document.querySelectorAll(".scroll-link i");
 
   icons.forEach((icon) => {
@@ -13,4 +13,4 @@ window.addEventListener("scroll", function () {
           icon.classList.remove("icon-active");
       }
   });
-});
+});*/
