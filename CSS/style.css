@@ -216,7 +216,6 @@ body {
     list-style: none;
     padding: 0;
     justify-content: space-between;
-    margin-right: 20px;
   }
   
   .nav-links li a {
@@ -227,34 +226,23 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin-right: 30px; 
+
+    margin: 0 45px;
   }
   
   .nav-links li a:hover {
     transform: scale(1.2);
+    color: #c0c0c0;
+    top:-5px;
   }
   
   .nav-links li a.active i {
     transition: transform 0.2s ease-in-out;
-    font-size: 40px;
-    transform: scale(1.08);
+    font-size: 37px;
+    transform: scale(1.02);
+    text-decoration:dotted;
   }
 
-
-  .scroll-link{
-    text-decoration: none;
-    color: white;
-    margin: 0 50px;
-    transition: transform 0.3s;
-    z-index: 2;
-    
-}
-
-.scroll-link:hover{
-    color: #c0c0c0;
-    transform: scale(1.2);
-    top:-5px;
-}
 
 
 .section-title{

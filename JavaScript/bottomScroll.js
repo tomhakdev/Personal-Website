@@ -8,7 +8,5 @@ document.addEventListener("DOMContentLoaded", function () {
             window.scrollTo(0, contactSectionBottom - window.innerHeight);
         }
     }
-
-    // Attach the handleScroll function to the scroll event
     window.addEventListener("scroll", handleScroll);
 });
