@@ -16,10 +16,10 @@ function typeText() {
         spanElement.textContent = char;
         textElement.appendChild(spanElement);
         index++;
-        setTimeout(typeText, 100); // Typing speed
+        setTimeout(typeText, 100); 
     } else {
         isDeleting = true;
-        setTimeout(deleteText, 800); // Delay before deleting
+        setTimeout(deleteText, 800); 
     }
 }
 
@@ -31,11 +31,11 @@ function deleteText() {
     if (lastSpan) {
         lastSpan.remove();
         index--;
-        setTimeout(deleteText, 50); // Deleting speed
+        setTimeout(deleteText, 50); 
     } else {
         isDeleting = false;
-        messageIndex = (messageIndex + 1) % messages.length; // Switch to the next message
-        setTimeout(typeText, 800); // Delay before typing the next message
+        messageIndex = (messageIndex + 1) % messages.length; 
+        setTimeout(typeText, 800); 
     }
 }
 
