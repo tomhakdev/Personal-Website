@@ -4,6 +4,10 @@
     height: 100vh;
   }
   
+#Contact h2{
+  z-index: 2;
+}
+
   .contact-content {
     display: flex;
     flex-direction: column;
@@ -15,8 +19,10 @@
   
   .email {
     font-size: 24px;
-    padding: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     color: white;
+    z-index: 2;
   }
   
   .contact-icons {

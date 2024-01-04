@@ -7,6 +7,10 @@
     padding-top: 75px;
     margin-bottom: 50px;
   }
+
+  #Projects h2{
+    z-index: 2;
+  }
   
   .project-grid {
     display: grid;
@@ -26,6 +30,7 @@
     font-size: 24px;
     margin-bottom: 5px;
     color: white;
+    z-index: 2;
   }
   
   .thumbnail {
